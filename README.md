@@ -25,3 +25,5 @@ cordova platform rm <platform>
 cordova build <platform>
 cordova run <platform>
 ```
+
+![App running](https://i.imgur.com/uw5oXvP.png)
