@@ -5,7 +5,7 @@ PinningTest is a demo app that uses [cordova-plugin-advanced-http](https://githu
 ## Requirements
 - Node@^4.8.0
 - Ionic@1.7.16
-- Cordova@6.5.0
+- Cordova@7.1.0
 
 ## Configure
 Currently the app is configured to make requests to `https://www.google.cl/`. TIf you want to change this, in `www/modules/testing/controllers/homeCtrl.js`, search for:
@@ -22,6 +22,7 @@ Note: Remember to add your server's ssl certificate to `www/certificates/`
 npm install
 ionic state restore
 cordova platform rm <platform>
+cordova platform add <platform>
 cordova build <platform>
 cordova run <platform>
 ```
